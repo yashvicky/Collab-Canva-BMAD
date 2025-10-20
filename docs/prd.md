@@ -1442,11 +1442,11 @@ BMAD method overview (BMAD 28e1a0fe5fa88036a20ee4eb01374eba.md)
 Appendix C: Environment Variables
 Required for Development:
 bash# Liveblocks (Real-time sync)
-NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=pk_dev_CX6igKwqVatvF_qMT6_eIl-3kbp7q1gjsMeDD9pAAnYQBWyZjgqm_qByVA5GhOaI
-LIVEBLOCKS_SECRET_KEY=sk_dev_qO999MORESz47y-P5IT8iGcn1d0n0dePlIIRCOP0AD-A5PPD6s9TE0BteKhXkDUM
+NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=your_liveblocks_public_key_here
+LIVEBLOCKS_SECRET_KEY=your_liveblocks_secret_key_here
 
 # Firebase (Anonymous Auth)
-NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyDfUV8dnvexeVeGeVC0qYVU_F9zzXtHV54
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key_here
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=collab-canva.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=collab-canva
 
