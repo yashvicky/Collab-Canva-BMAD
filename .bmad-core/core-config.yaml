@@ -1,0 +1,32 @@
+remarkdownExploder: true
+qa:
+  qaLocation: docs/qa
+prd:
+  prdFile: docs/prd.md
+  prdVersion: v4
+  prdSharded: true
+  prdShardedLocation: docs/prd
+  epicFilePattern: epic-{n}*.md
+architecture:
+  architectureFile: docs/architecture.md
+  architectureVersion: v4
+  architectureSharded: true
+  architectureShardedLocation: docs/architecture
+customTechnicalDocuments:
+  - docs/architecture/adr-0001-realtime-sync.md
+  - docs/architecture/adr-0002-canvas-rendering.md
+  - docs/architecture/adr-0003-ai-function-calling.md
+  - docs/challenge-requirements.md
+devLoadAlwaysFiles:
+  - docs/architecture/coding-standards.md
+  - docs/architecture/tech-stack.md
+  - docs/architecture/project-structure.md
+  - docs/scope-final.md
+devDebugLog: .ai/debug-log.md
+devStoryLocation: docs/stories
+slashPrefix: BMad
+project:
+  name: collab-canva-bmad
+  type: greenfield
+  description: Real-time collaborative canvas with AI agent manipulation
+  challengeDeadline: 7-day sprint (MVP 24hrs, Early 4 days, Final 7 days)
