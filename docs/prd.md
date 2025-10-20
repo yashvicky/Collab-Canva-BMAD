@@ -1440,8 +1440,10 @@ BMAD user guide (user-guide-BMAD-Claude.md)
 BMAD method overview (BMAD 28e1a0fe5fa88036a20ee4eb01374eba.md)
 
 Appendix C: Environment Variables
+
 Required for Development:
-bash# Liveblocks (Real-time sync)
+```bash
+# Liveblocks (Real-time sync)
 NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=your_liveblocks_public_key_here
 LIVEBLOCKS_SECRET_KEY=your_liveblocks_secret_key_here
 
@@ -1451,14 +1453,13 @@ NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=collab-canva.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=collab-canva
 
 # Anthropic Claude (AI Agent)
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+```
 
-Security Notes:
-
-Never commit .env.local to git
-Regenerate keys if accidentally exposed
-Use Vercel environment variables for production
-Liveblocks secret key: Server-side only
-Anthropic API key: Server-side only
+**Security Notes:**
+- Never commit .env.local to git
+- Regenerate keys if accidentally exposed
+- Use Vercel environment variables for production
 
 Appendix D:RetryVContinueAppendix D: Timeline & Checkpoints
 Project Duration: 7 days (Oct 17-24, 2025)
